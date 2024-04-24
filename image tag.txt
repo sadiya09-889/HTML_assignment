@@ -1,0 +1,26 @@
+<html >
+<head>
+<title< image tag</title>
+</head>
+
+<img src= "https://th.bing.com/th/id/OIP.U1vgQJowyGfvjlaTAls2UwHaEo?rs=1&pid=ImgDetMain">
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
