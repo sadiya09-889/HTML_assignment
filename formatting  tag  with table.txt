@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> table  of books  with description by using formatting tags </title>
+<html>
+<head >
+BOOK DETAILS </head>
+<body>
+<table border ="2">
+<tr>
+<th> BOOK ID </th>
+<th>BOOK NAME  </th>
+<th> AUTHOR  </th>
+<th>PUBLISHER  </th>
+</tr>
+
+<td>101 </td>
+<td>the great GATSBY </td>
+<td>	F .Scotland Fitzgerald </td>
+<td>penguin books </td>
+<td> need to add description , but cant edit from the copy pasted text 
+</tr>
+<tr>
+<td>102 </td>
+<td>1984 </td>
+<td>george Orwell </td>
+<td> harvill Orewell </td>
+
+<td>103 </td>
+<td> 8 rules of love  </td>
+<td>Jay  shetty  </td>
+<td> penguin publications </td>
+
+
+</tr>
+</body>                              
+</html> </td>
+
