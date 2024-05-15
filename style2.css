@@ -35,17 +35,19 @@ div{
 }
 input[type="text"],
 input[type="email"],
-input[type="tel"],
+input[type="CONTACT"],
 textarea,
 select,
 #dob {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-sizing: border-box;
     opacity: 0.5;
+{
+    input [type="password"]
 }
 
 textarea {
