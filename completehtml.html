@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes scrollimg{
+            0%{background-image: url("https://th.bing.com/th/id/OIP.EXMuICiEy95qK8L33_St1AHaJs?w=131&h=180&c=7&r=0&o=5&pid=1.7") ;}
+            25%{background-image: url("https://th.bing.com/th/id/OIP.iDYzhT0A7Z0Ra9a4QprpzQHaK_?rs=1&pid=ImgDetMain");}
+            50%{background-image: url("https://th.bing.com/th/id/OIP.9YoTiRgrQAgYZ2SdUcCxvwHaEK?w=271&h=180&c=7&r=0&o=5&pid=1.7");}
+            75%{background-image: url("https://m.media-amazon.com/images/M/MV5BMjIwMjQwMDU2OV5BMl5BanBnXkFtZTgwNzMwMDg2OTE@._V1_.jpg");}
+            100%{background-image: url("https://th.bing.com/th/id/OIP.dbsGsPF5djVxRZbHKgUwowHaKY?w=202&h=282&c=7&r=0&o=5&pid=1.7");}
+        }
+        header{
+            background-color: #0e0007;
+        }
+        footer
+        {
+            background-color: #f1f0f1;
+        }
+        section{
+            background-color: rgb(253, 253, 253);
+        }
+        #logo{
+            width: 60px;
+            height: 60px;
+            
+        }
+        #companyname{
+            display: flex;
+        }
+        nav a{
+            color:white;
+            }
+
+        nav a:hover{
+            background-color:yellow;
+            }
+         nav{
+            margin-left: 450px;
+            margin-right: auto;
+         }   
+    #imgscroll
+    {
+        background-image: url("https://th.bing.com/th/id/OIP.toHT7LjpY-FoZ59RmE55wAAAAA?w=280&h=167&c=7&r=0&o=5&pid=1.7");
+        width: 1800px;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;  
+        animation-name: scrollimg; 
+        animation-duration: 10s;
+        animation-delay: 2s;
+        
+        }
+        .ourteam{
+            width: 550px;
+            height: 150px;
+        }
+        .socialmedia{
+            width: 100px;
+            height: 50px;
+        }
+        .rowimg
+        {
+            border: 1px solid red;
+            border-radius: 50%;
+        }
+        .mustwatch
+        {
+            width: 400px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+  <header>
+
+    <div id="companyname">
+        <img src="data:image/jpeg;base64,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" id="logo">
+        Netflix
+
+        <nav>
+            <a href="#mustwatch"> mustwatch</a>
+            <a href=" TOP3"> TOP3</a>
+            <a href="#contactus"> Contactus </a>
+        </nav>
+</div>
+</header>  
+  <section id= "mustwatch">
+
+
+    <div id="imgscroll">
+     
+    </div>
+
+  </section>
+
+
+  <section id="TOP3">
+    <h1> TOP3</h1>
+
+    <table>
+        <tr>
+            <td><div class="rowimg"></div><img src="https://resizing.flixster.com/Pi-qUe7O4n8fF3E17kw9IGTDNIU=/fit-in/180x240/v2/https://resizing.flixster.com/OnI40v_5iaeMcxv03WYplHl5l_8=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2UzY2U2OGZiLTBlN2UtNDUxMi1iMmI0LTFkYTFiYzBlYzA1MC5qcGc=" class = "mustwatch"></div></td>
+            <td> <div class="rowimg"></div><img src="https://resizing.flixster.com/AsFK_hZjOw2jT1elg7vvFuhXzg8=/fit-in/180x240/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p19411_p_v12_ah.jpg" class = "mustwatch"></div></td>
+            <td><div class="rowimg"></div><img src="https://resizing.flixster.com/BtcWumdIgrz0NornN-dAH0NYPkU=/fit-in/180x240/v2/https://resizing.flixster.com/8kg3pRliv0YrN9D86XG8z_CDq5U=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2E4OTllMWU0LTIwMDgtNDQwNS1iNDFiLThkZDIyMTM5YTJlNC53ZWJw" class = "mustwatch"></div></td>
+            
+        </tr>
+        
+        <tr>
+            
+            <td> <h1>HIS HOUSE</h1>A refugee couple makes a harrowing escape from war-torn South Sudan,
+                 but then they struggle to adjust to their new life in an English town that has an evil lurking beneath the surface. </td>
+            <td> <h1>L.A Confidential</h1>Three policemen, each with his own motives and obsessions, 
+                tackle the corruption surrounding an unsolved murder at a downtown Los Angeles coffee shop in the early 1950s. Detective Lieutenant Exley (Guy Pearce), the son of a murdered detective, is out to avenge his father's killing.  </td>
+            <td><h1>Miss Junetenneth</h1>A former beauty queen and single mom prepares her rebellious teenage daughter for the "Miss Juneteenth" pageant.</td>
+        </tr>
+    </table>
+  </section>
+
+
+  <section id="Contactus">
+    <h1> Contactus</h1>
+    <form>
+        <fieldset>
+            <legend> Send Enquiry </legend>
+        <lable>Name:</lable>
+        <input type= "text">
+        <br>
+
+        <lable>Mobile No:</lable>
+        <input type= "tel">
+        <br>
+
+        <lable>Emailid:</lable>
+        <input type= "email">
+        <br>
+
+
+        <label> Message </label>
+        <br>
+        <textarea rows="10" cols="20">
+
+        </textarea>
+
+    </fieldset>
+    </form>
+  </section>
+  <footer>
+ <h3>Developed By Sadiya Banu copyrights @Netflix</h3>
+  <a href="https://www.instagram.com/"><img src="https://th.bing.com/th/id/OIP.bUnn03oLUdm1hqE6AwEdqAHaHa?rs=1&pid=ImgDetMain" class="socialmedia"></a>
+
+</footer>
+    
+</body>
+</html>
